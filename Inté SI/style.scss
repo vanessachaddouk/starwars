@@ -103,7 +103,7 @@ body {
     height: 793px;
 
     h3{
-    margin-top: 40px;
+    margin-top: 60px;
     font-family: "Proxima Nova";
     font-weight: lighter;
     font-size: 35px;
@@ -179,15 +179,21 @@ body {
     height: 793px;
 
     h3{
-    margin-top: 112px;
+    margin-top: 50px;
     font-family: "Proxima Nova";
     font-weight: lighter;
     font-size: 35px;
     }
 
     p{
-    padding-left: 60px;
+    font-size: 25px;
+    margin-top: 20px;
+    padding-left: 50px;
     display: inline-block;
+    }
+
+    img{
+        margin-top: 50px;
     }
 }
 
@@ -203,10 +209,6 @@ body {
 
 .quality {
     margin-left: 77px;
-}
-
-.lol {
-    margin-left: 140px;
 }
 
 .contact {
