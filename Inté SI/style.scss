@@ -19,7 +19,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 960px;
-    height: 1000px;
+    height: 3000px;
 }
 
 .firstPage  {
@@ -161,8 +161,6 @@ body {
 }
 
 .myButton3 {
-    -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
-    -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
     box-shadow:inset 0px 1px 0px 0px #ffffff;
     background-color:#ffffff;
     display:inline-block;
@@ -199,7 +197,7 @@ body {
     margin-top: 92px;
     margin-left: -238px;
     width: 1430px;
-    height: 325px;
+    height: 345px;
     background-color: $blue;
 }
 
@@ -228,37 +226,69 @@ body {
     font-size: 24px;
     font-weight: lighter;
     }
+
+    div{
+        display: inline;
+    }
+}
+
+.myButton4 {
+    float: left;
+    margin-left: 356px;
+    background-color:#efc814;
+    cursor:pointer;
+    color:$white;
+    font-family:"Proxima Nova";
+    font-weight: lighter;
+    font-size:20px;
+    font-weight:bold;
+    padding:10px 15px;
+    text-decoration:none;
 }
 
 .input-name {
-  margin-top: 20px;
-  color: #057278;
-  padding: 10px 20px;
+  resize: none;
+  margin-top: 25px;
+  color: $white;
+  padding-left: 10px;
+  padding-top: 5px;
+  width: 200px;
+  height: 30px;
   border: 1px solid #ffffff;
   font: normal 16px/normal "Proxima Nova", Times, serif;
   background: rgba(252,252,252,0);
 }
 
 .input-name::-webkit-input-placeholder {
-    color:#057278;
+    color: $white;
+    opacity: 0.5;
 }
 
 .input-adress {
-  color: #057278;
-  padding: 10px 50px;
+  resize: none;
+  margin-top: 25px;
+  color: $white;
+  padding-left: 10px;
+  padding-top: 5px;
+  width: 274px;
+  height: 30px;
   border: 1px solid #ffffff;
   font: normal 16px/normal "Proxima Nova", Times, serif;
   background: rgba(252,252,252,0);
 }
 
 .input-adress::-webkit-input-placeholder {
-    color:#057278;
+    color: $white;
+    opacity: 0.5;
 }
 
 .input-message {
+  resize: none;
+  padding: 10px;
+  height: 120px;
+  width: 478px;
   display: block;
-  color: #057278;
-  padding: 50px 155.5px;
+  color: $white;
   border: 1px solid #ffffff;
   font: normal 16px/normal "Proxima Nova", Times, serif;
   background: rgba(252,252,252,0);
@@ -266,13 +296,14 @@ body {
 }
 
 .input-message::-webkit-input-placeholder {
-    color:#057278;
+    color: $white;
+    opacity: 0.5;
 }
 
 .skytravelerhologram {
     float: left;
     margin-left: 500px;
-    margin-top: -163px;
+    margin-top: -200px;
 
     span{
 
@@ -286,7 +317,7 @@ body {
 .phone {
     float: left;
     margin-left: 504px;
-    margin-top: -108px;
+    margin-top: -150px;
 
     span{
     
@@ -301,18 +332,38 @@ body {
 .newsletter {
     float: left;
     margin-left: 503px;
-    margin-top: -65px;
+    margin-top: -96px;
+
     .input-newsletter {
+    resize: none;
     margin-top: 2px;
+    height: 30px;
+    width: 435px;
+    padding-left: 10px;
+    padding-top: 5px;
     display: block;
-    color: #057278;
-    padding: 10px 140px;
+    color: $white;
     border: 1px solid #ffffff;
     font: normal 16px/normal "Proxima Nova", Times, serif;
     background: rgba(252,252,252,0);
     }
 }
 
+.myButton5 {
+    float: left;
+    margin-left: 395px;
+    background-color:#efc814;
+    cursor:pointer;
+    color:$white;
+    font-family:"Proxima Nova";
+    font-weight: lighter;
+    font-size:20px;
+    font-weight:bold;
+    padding:10px 15px;
+    text-decoration:none;
+}
+
 .input-newsletter::-webkit-input-placeholder {
-    color:#057278;
+    color: $white;
+    opacity: 0.5;
 }
