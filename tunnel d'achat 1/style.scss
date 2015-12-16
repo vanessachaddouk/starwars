@@ -242,6 +242,12 @@ body {
   color: #ffffff;
   cursor: pointer;
   }
+
+  img{
+  position: absolute;
+  margin-left: 475px;
+  margin-top: -66px;
+  }
 }
 
 .price {
@@ -256,7 +262,7 @@ body {
 }
 
 .buy {
-  width: 180px;
+  width: 240px;
   height: 120px;
   background-color: #32343d;
   margin-left: 220px;
@@ -265,7 +271,7 @@ body {
   font-size: 30px;
   position: absolute;
   margin-top: 48px;
-  margin-left: 25px;
+  margin-left: 55px;
   }
 }
 
