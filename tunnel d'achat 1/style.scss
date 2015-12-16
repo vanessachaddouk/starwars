@@ -15,7 +15,7 @@ body {
 #container {
   margin-left: auto;
   margin-right: auto;
-  width: 1440px;
+  width: 100vw;
 }
 
 .firstPage {
@@ -57,6 +57,7 @@ body {
   }
 
   li{
+  font-family: "Proxima Nova";
   display: inline-block;
   margin-left: 73px;
 
@@ -73,21 +74,23 @@ body {
   }
 }
 
-.background {
+.background{
   position: absolute;
-  z-index: -1;
+  img{
+  width: 100vw;
+  height: calc(100vh - 75px);
+  }
 }
 
 .menu {
-  position: relative;
-  z-index: 1;
-  margin-top: -756px;
-  width: 500px;
-  height: 753px;
+  position: absolute;
+  width: calc(36vw - 18px);
+  height: calc(100vh - 75px);
   background-color: black;
   opacity: 0.7;
 
   h3{
+  font-family: "Proxima Nova";
   position: absolute;
   font-size: 30px;
   font-weight: lighter;
@@ -98,6 +101,7 @@ body {
   }
   span{
   color: #ffffff;
+  font-family: "Proxima Nova"
   }
 }
 
@@ -140,10 +144,14 @@ body {
   margin-left: 20px;
   color: #ffffff;
   font-size: 15px;
+
+  form{
+  font-family: "Proxima Nova";
+  }
 }
 
 .allerRetour{
-  margin-left: 32px;
+  margin-left: 29px;
 }
 
 .vaisseau{
@@ -169,8 +177,10 @@ body {
 }
 
 .custom-dropdown__select--white {
-    background-color: #000000;
-    color: #444;    
+    background-color: #444045;
+    color: #ffffff;
+    font-size: 11px;
+    font-family: "Proxima Nova"; 
 }
 
 .timeLonger{
@@ -187,6 +197,7 @@ body {
   background-color: #4a3d6b;
 
   span{
+  font-family: "Proxima Nova";
   position: absolute;
   margin-left: 65px;
   margin-top: 12px;
@@ -202,6 +213,7 @@ body {
   background-color: #4a3d6b;
 
   span{
+  font-family: "Proxima Nova";
   position: absolute;
   margin-left: 43px;
   margin-top: 12px;
@@ -212,6 +224,7 @@ body {
 .option {
   color: #ffffff;
   h3{
+  font-family: "Proxima Nova";
   margin-top: 450px;
   }
   input{
@@ -219,23 +232,21 @@ body {
   margin-left: 20px;
   }
   span{
+  font-family: "Proxima Nova";
   margin-left: 20px;
   font-size: 10px;
+  }
+  form{
+  font-family: "Proxima Nova";
   }
 }
 
 .buyTotal{
-  margin-top: 102px;
-  width: 500px;
+  position: absolute;
+  bottom: 0;
+  width: calc(36vw - 18px);
   height: 120px;
   background-color: #28d1bc;
-
-  span{
-  position: absolute;
-  margin-top: -85px;
-  margin-left: 437px;
-  font-size:60px;
-  }
 
   a{
   text-decoration: none;
@@ -245,15 +256,16 @@ body {
 
   img{
   position: absolute;
-  margin-left: 475px;
   margin-top: -66px;
+  margin-left: 33vw;
   }
 }
 
 .price {
-  width: 180px;
+  width: 18vw;
 
   span{
+  font-family: "Proxima Nova";
   position: absolute;
   margin-top: 48px;
   margin-left: 50px;
@@ -262,17 +274,23 @@ body {
 }
 
 .buy {
-  width: 240px;
+  text-align: center;
+  width: 15vw;
   height: 120px;
   background-color: #32343d;
   margin-left: 220px;
 
   span{
-  font-size: 30px;
+  font-family: "Proxima Nova";
   position: absolute;
+  font-size: 30px;
   margin-top: 48px;
-  margin-left: 55px;
+  margin-left: -63px;
   }
 }
 
+@media (max-width: 700px){
+
+
+}
 

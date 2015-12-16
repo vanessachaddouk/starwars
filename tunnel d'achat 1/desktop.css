@@ -58,7 +58,6 @@ body {
 }
 
 .navBar li {
-  font-family: "Proxima Nova";
   display: inline-block;
   margin-left: 73px;
 }
@@ -92,7 +91,6 @@ body {
 }
 
 .menu h3 {
-  font-family: "Proxima Nova";
   position: absolute;
   font-size: 30px;
   font-weight: lighter;
@@ -104,7 +102,6 @@ body {
 
 .menu span {
   color: #ffffff;
-  font-family: "Proxima Nova";
 }
 
 .colonneGauche {
@@ -148,12 +145,8 @@ body {
   font-size: 15px;
 }
 
-.checkbox form {
-  font-family: "Proxima Nova";
-}
-
 .allerRetour {
-  margin-left: 29px;
+  margin-left: 32px;
 }
 
 .vaisseau {
@@ -181,10 +174,8 @@ body {
 }
 
 .custom-dropdown__select--white {
-  background-color: #444045;
-  color: #ffffff;
-  font-size: 11px;
-  font-family: "Proxima Nova";
+  background-color: #000000;
+  color: #444;
 }
 
 .timeLonger {
@@ -202,7 +193,6 @@ body {
 }
 
 .time span {
-  font-family: "Proxima Nova";
   position: absolute;
   margin-left: 65px;
   margin-top: 12px;
@@ -218,7 +208,6 @@ body {
 }
 
 .long span {
-  font-family: "Proxima Nova";
   position: absolute;
   margin-left: 43px;
   margin-top: 12px;
@@ -230,7 +219,6 @@ body {
 }
 
 .option h3 {
-  font-family: "Proxima Nova";
   margin-top: 450px;
 }
 
@@ -240,13 +228,8 @@ body {
 }
 
 .option span {
-  font-family: "Proxima Nova";
   margin-left: 20px;
   font-size: 10px;
-}
-
-.option form {
-  font-family: "Proxima Nova";
 }
 
 .buyTotal {
@@ -274,7 +257,6 @@ body {
 }
 
 .price span {
-  font-family: "Proxima Nova";
   position: absolute;
   margin-top: 48px;
   margin-left: 50px;
@@ -290,9 +272,14 @@ body {
 }
 
 .buy span {
-  font-family: "Proxima Nova";
   position: absolute;
   font-size: 30px;
   margin-top: 48px;
   margin-left: -63px;
 }
+
+@media (max-width: 700px){
+.menu{
+  
+}
+
