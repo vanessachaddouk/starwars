@@ -245,6 +245,7 @@ body {
   margin: 0 auto;
 }
 .liProfil h3 {
+  text-align: center;
   font-size: 13px;
   color: #493c6a;
   font-weight: 700;
@@ -267,12 +268,55 @@ body {
 }
 
 .liTexte {
+  float: left;
+  margin-left: 27px;
+  width: 320px;
   display: inline-block;
 }
 .liTexte h3 {
+  margin-top: 17px;
+  text-align: center;
   font-size: 14px;
   font-weight: 700;
   color: #ff217c;
+}
+.liTexte p {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.liProfil2 {
+  margin-left: 20px;
+  display: inline-block;
+  float: left;
+}
+.liProfil2 img {
+  display: block;
+  margin: 0 auto;
+}
+.liProfil2 h3 {
+  text-align: center;
+  font-size: 13px;
+  color: #493c6a;
+  font-weight: 700;
+  margin-top: 10px;
+}
+.liProfil2 hr {
+  width: 50px;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #9d9d9d;
+  margin: 1em 0;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.liProfil2 p {
+  text-align: center;
+  font-size: 13px;
+  font-weight: 300;
 }
 
 @media screen and (max-width: 920px) and (orientation: portrait) {
