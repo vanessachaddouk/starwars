@@ -159,15 +159,25 @@ body {
   height: 100vh;
 }
 
+.whiteOpacity {
+  opacity: 0.6;
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  border-radius: 10px;
+  width: 1160px;
+  height: 618px;
+  background-color: #ffffff;
+}
+
 .cargoText {
-  opacity: 1;
   margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
   border-radius: 10px;
   width: 1160px;
   height: 618px;
-  background-color: #ffffff;
 }
 .cargoText h2 {
   font-size: 34px;
