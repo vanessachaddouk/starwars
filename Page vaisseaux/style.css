@@ -166,7 +166,7 @@ body {
   left: 0;
   right: 0;
   border-radius: 10px;
-  width: 1160px;
+  width: 80vw;
   height: 618px;
   background-color: #ffffff;
 }
@@ -176,7 +176,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   border-radius: 10px;
-  width: 1160px;
+  width: 80vw;
   height: 618px;
 }
 .cargoText h2 {
@@ -186,7 +186,7 @@ body {
 
 .container2 {
   position: absolute;
-  width: 924px;
+  width: 64vw;
   height: 618px;
   margin: 0 auto;
   left: 0;
@@ -195,7 +195,7 @@ body {
 
 .texteGauche {
   display: inline-block;
-  width: 555px;
+  width: 38vw;
   height: 358px;
 }
 .texteGauche h2 {
@@ -380,5 +380,86 @@ body {
   #navImg {
     margin-left: 2vw;
     float: left;
+  }
+
+  .firstPage {
+    overflow: auto;
+  }
+
+  .background {
+    display: none;
+  }
+
+  .whiteOpacity {
+    height: 460px;
+  }
+
+  ul {
+    display: block;
+  }
+
+  .cargoText {
+    height: 200vh;
+    margin-top: 0px;
+  }
+
+  .texteGauche {
+    width: 65vw;
+    height: 460px h2;
+    height-text-align: center;
+    height-line-height: 140%;
+  }
+  .texteGauche p {
+    margin-top: 20px;
+  }
+  .texteGauche button {
+    height: 20px;
+    width: 100px;
+    margin: -20px -50px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+  }
+
+  .texteDroite {
+    width: 195px;
+    float: none;
+    margin: 0 auto;
+  }
+  .texteDroite ul {
+    margin-left: 0px;
+    width: 195px;
+  }
+
+  .texteBas {
+    margin-top: 50px;
+    width: 311px;
+    float: none;
+  }
+  .texteBas li {
+    display: block;
+  }
+
+  .liProfil {
+    float: none;
+  }
+  .liProfil img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .liProfil2 {
+    float: none;
+    margin-left: 0px;
+    margin-top: 50px;
+  }
+  .liProfil2 img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .liTexte {
+    float: none;
+    margin-left: 0px;
   }
 }
