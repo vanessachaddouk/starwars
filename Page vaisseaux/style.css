@@ -186,7 +186,7 @@ body {
 
 .container2 {
   position: absolute;
-  width: 64vw;
+  width: 908px;
   height: 618px;
   margin: 0 auto;
   left: 0;
@@ -385,6 +385,10 @@ body {
   .firstPage {
     overflow: auto;
   }
+  .firstPage h2 {
+    line-height: 60px;
+    text-align: center;
+  }
 
   .background {
     display: none;
@@ -403,26 +407,19 @@ body {
     margin-top: 0px;
   }
 
+  .container2 {
+    width: 64vw;
+  }
+
   .texteGauche {
     width: 65vw;
-    height: 460px h2;
-    height-text-align: center;
-    height-line-height: 140%;
-  }
-  .texteGauche p {
-    margin-top: 20px;
-  }
-  .texteGauche button {
-    height: 20px;
-    width: 100px;
-    margin: -20px -50px;
-    position: relative;
-    top: 50%;
-    left: 50%;
+    height: 460px p;
+    height-margin-top: 20px;
   }
 
   .texteDroite {
     width: 195px;
+    height: 412px;
     float: none;
     margin: 0 auto;
   }
@@ -432,8 +429,8 @@ body {
   }
 
   .texteBas {
-    margin-top: 50px;
-    width: 311px;
+    margin: 0 auto;
+    width: 321px;
     float: none;
   }
   .texteBas li {

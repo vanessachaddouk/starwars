@@ -171,7 +171,7 @@ body {
 
 .container2 {
     position: absolute;
-    width: 64vw;
+    width: 908px;
     height: 618px;
     margin: 0 auto;
     left: 0;
@@ -385,6 +385,11 @@ nav {
 
 .firstPage{
     overflow: auto;
+
+    h2{
+      line-height: 60px;
+      text-align: center;
+    }
 }
 
 .background{
@@ -404,32 +409,23 @@ ul{
     margin-top: 0px;
 }
 
+.container2{
+  width: 64vw;
+}
+
 
 .texteGauche{
     width: 65vw;
     height: 460px
 
-    h2{
-    text-align: center;
-    line-height: 140%;
-    }
-
     p{
     margin-top: 20px;
-    }
-
-    button{
-    height:20px; 
-    width:100px; 
-    margin: -20px -50px; 
-    position:relative;
-    top:50%; 
-    left:50%;
     }
 }
 
 .texteDroite{
     width: 195px;
+    height: 412px;
     float: none;
     margin: 0 auto;
 
@@ -440,8 +436,8 @@ ul{
 }
 
 .texteBas{
-    margin-top: 50px;
-    width: 311px;
+    margin: 0 auto;
+    width: 321px;
     float: none;
 
     li{
